@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Game</title>
+    <link rel="stylesheet" href="colorGame.css">
+</head>
+<body>
+    <h1 class="heading">The Great<br><span class="color-display" id="colorDisplay">rgb</span><br>Color Game</h1>
+    <div class="stripe" id="stripe">
+        <button class="button" id="reset">New Colors</button>
+        <span class="message" id="message"></span>
+        <button id="easy" class="mode button">Easy</button>
+        <button id ="hard" class="mode selected button">Hard</button>
+    </div>
+    <div class="box-container" id="container">
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+    </div>
+    <script src="colorGame.js"></script>
+</body>
+</html>
